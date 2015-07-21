@@ -1,0 +1,404 @@
+/* 
+Splash
+
+*/
+
+#splash {
+  float: left;
+  height: 80%;
+  width: 80%;
+}
+
+#direct {
+  float: right;
+}
+
+/*
+
+Letter A
+
+*/
+
+#splash #blocks .letter-e {
+  position:absolute;
+  left:720px;
+  top:190px;
+  width:120px;
+  height:120px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  font:6.3em / 120px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:#203880;
+}
+#splash #blocks .letter-e .inner, #splash #blocks .letter-e .front{
+  position:absolute;
+  left:0;
+  top:0;
+  display:block;
+  width:120px;
+  height:120px;
+}
+#splash #blocks .letter-e .inner{
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .letter-e .front{
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .letter-e .front{
+ background:#ffffff url('../image/none.png') no-repeat center center; }
+
+#splash #blocks .letter-e .front{
+  -webkit-transition:all 200ms ease-in 0;
+  -moz-transition:all 200ms ease-in 0s;
+  -o-transition:all 200ms ease-in 0;
+  transition:all 200ms ease-in 0;
+}
+#splash #blocks .letter-e.hover .front{
+  background:#203880;
+  color:#ffffff;
+}
+
+
+/* 
+Letter h
+
+*/
+
+#splash #blocks .letter-h {
+  position:absolute;
+  left:240px;
+  top:240px;
+  width:190px;
+  height:190px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  font:9.2em / 190px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:#ffffff;
+}
+#splash #blocks .letter-h .inner, #splash #blocks .letter-h .front{
+  position:absolute;
+  left:0;
+  top:0;
+  display:block;
+  width:190px;
+  height:190px;
+}
+#splash #blocks .letter-h .inner{
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .letter-h .front{
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .letter-h .front{
+ background:#f2c230 url('../image/none.png') no-repeat center center; }
+
+#splash #blocks .letter-h .front{
+  -webkit-transition:all 200ms ease-in 0;
+  -moz-transition:all 200ms ease-in 0s;
+  -o-transition:all 200ms ease-in 0;
+  transition:all 200ms ease-in 0;
+}
+#splash #blocks .letter-h.hover .front{
+  background:#ffffff;
+  color:#f2c230;
+}
+
+/*
+Letter i
+
+*/
+
+#splash #blocks .letter-i{
+  position:absolute;
+  left:720px;
+  top:480px;
+  width:110px;
+  height:110px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  font:4.8em / 110px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:#203880;
+}
+#splash #blocks .letter-i .inner, #splash #blocks .letter-i .front{
+  position:absolute;
+  left:0;
+  top:0;
+  display:block;
+  width:110px;
+  height:110px;
+}
+#splash #blocks .letter-i .inner{
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .letter-i .front{
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .letter-i .front{
+  background:#2EE7B6 url('../image/none.png') no-repeat center center; }
+
+#splash #blocks .letter-i .front{
+  -webkit-transition:all 200ms ease-in 0;
+  -moz-transition:all 200ms ease-in 0s;
+  -o-transition:all 200ms ease-in 0;
+  transition:all 200ms ease-in 0;
+}
+#splash #blocks .letter-i.hover .front {
+  background:#203880;
+  color:#e74c2e;
+}
+
+
+/*
+Letter i large
+
+*/
+
+#splash #blocks .letter-i-large {
+  position:absolute;
+  left:240px;
+  top:580px;
+  width:170px;
+  height:170px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  font:9.2em / 170px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:#8b3628;
+}
+#splash #blocks .letter-i-large .inner, #splash #blocks .letter-i-large .front{
+  position:absolute;
+  left:0;
+  top:0;
+  display:block;
+  width:170px;
+  height:170px;
+}
+#splash #blocks .letter-i-large .inner{
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .letter-i-large .front{
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .letter-i-large .front{
+ background:#f2c230 url('../image/none.png') no-repeat center center; }
+
+
+#splash #blocks .letter-i-large .front{
+  -webkit-transition:all 200ms ease-in 0;
+  -moz-transition:all 200ms ease-in 0s;
+  -o-transition:all 200ms ease-in 0;
+  transition:all 200ms ease-in 0;
+}
+#splash #blocks .letter-i-large.hover .front{
+  background:#8b3628;
+  color:#f2c230;
+}
+
+/*
+Letter i small
+
+*/
+#splash #blocks .letter-i-small{
+  position:absolute;
+  left:480px;
+  top:640px;
+  width:120px;
+  height:120px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  font:4.8em / 120px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:#3078bf;
+}
+#splash #blocks .letter-i-small .inner, #splash #blocks .letter-i-small .front{
+  position:absolute;
+  left:0;
+  top:0;
+  display:block;
+  width:120px;
+  height:120px;
+}
+#splash #blocks .letter-i-small .inner{
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .letter-i-small .front{
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .letter-i-small .front{
+ background:#203880 url('../image/none.png') no-repeat center center; }
+
+
+#splash #blocks .letter-i-small .front {
+  -webkit-transition:all 200ms ease-in 0;
+  -moz-transition:all 200ms ease-in 0s;
+  -o-transition:all 200ms ease-in 0;
+  transition:all 200ms ease-in 0;
+}
+#splash #blocks .letter-i-small.hover .front{
+  background:#3078bf;
+  color:#203880;
+}
+
+/*
+Coffee
+*/
+
+#splash #blocks .coffee, #splash-fullscreen #blocks .coffee {
+  position:absolute;
+  left:450px;
+  top:225px;
+  width:175px;
+  height:175px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .coffee .inner, #splash #blocks .coffee .front{
+
+  position:absolute;
+  left:0;
+  top:0;
+  display:block;
+  width:200px;
+  height:200px;
+}
+#splash #blocks .coffee .inner {
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .coffee .front {
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .coffee .front{ 
+  background:#e74c2e url('../img/coffee.png') no-repeat center center; 
+}
+
+#splash #blocks .coffee .back{
+  -webkit-transform:rotateY(-180deg);
+  -moz-transform:rotateY(-180deg);
+  -ms-transform:rotateY(-180deg);
+  -o-transform:rotateY(-180deg);
+  transform:rotateY(-180deg);
+  background-color:#e74c2e;
+}
+
+#splash #blocks .coffee .front{ z-index:8; }
+
+
+#splash #blocks .coffee.hover .front{ z-index:-1; }
+#splash #blocks .coffee.hover .inner{
+  -webkit-transform:rotateY(-180deg);
+  -moz-transform:rotateY(-180deg);
+  -ms-transform:rotateY(-180deg);
+  -o-transform:rotateY(-180deg);
+  transform:rotateY(-180deg);
+}
