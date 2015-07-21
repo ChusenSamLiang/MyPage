@@ -1,28 +1,20 @@
-/* 
-Splash
 
-*/
-
-#splash {
-  float: left;
-  height: 80%;
-  width: 80%;
+#splash, #blocks{
+  display: inline-block;
+  height: 100%;
+  width: 75%;
 }
 
-#direct {
-  float: right;
-}
+
 
 /*
 
-Letter A
+Letter E
 
 */
 
 #splash #blocks .letter-e {
-  position:absolute;
-  left:720px;
-  top:190px;
+  position:relative;
   width:120px;
   height:120px;
   background:transparent;
@@ -36,10 +28,9 @@ Letter A
   color:#203880;
 }
 #splash #blocks .letter-e .inner, #splash #blocks .letter-e .front{
-  position:absolute;
-  left:0;
-  top:0;
-  display:block;
+  position:relative;
+  left: 23.3%;
+  top: 28%;
   width:120px;
   height:120px;
 }
@@ -64,7 +55,7 @@ Letter A
   backface-visibility:hidden;
 }
 #splash #blocks .letter-e .front{
- background:#ffffff url('../image/none.png') no-repeat center center; }
+ background:#ffffff url('../img/none.png') no-repeat center center; }
 
 #splash #blocks .letter-e .front{
   -webkit-transition:all 200ms ease-in 0;
@@ -72,11 +63,11 @@ Letter A
   -o-transition:all 200ms ease-in 0;
   transition:all 200ms ease-in 0;
 }
-#splash #blocks .letter-e.hover .front{
+
+#splash #blocks .letter-e .front:hover{
   background:#203880;
   color:#ffffff;
 }
-
 
 /* 
 Letter h
@@ -84,9 +75,9 @@ Letter h
 */
 
 #splash #blocks .letter-h {
-  position:absolute;
-  left:240px;
-  top:240px;
+  position:relative;
+  margin-left: 46.3%;
+  margin-top: 25%;
   width:190px;
   height:190px;
   background:transparent;
@@ -100,10 +91,9 @@ Letter h
   color:#ffffff;
 }
 #splash #blocks .letter-h .inner, #splash #blocks .letter-h .front{
-  position:absolute;
-  left:0;
-  top:0;
-  display:block;
+  position:relative;
+  /*left:46.3%;
+  top:25%;*/
   width:190px;
   height:190px;
 }
@@ -128,7 +118,7 @@ Letter h
   backface-visibility:hidden;
 }
 #splash #blocks .letter-h .front{
- background:#f2c230 url('../image/none.png') no-repeat center center; }
+ background:#f2c230 url('../img/none.png') no-repeat center center; }
 
 #splash #blocks .letter-h .front{
   -webkit-transition:all 200ms ease-in 0;
@@ -136,41 +126,38 @@ Letter h
   -o-transition:all 200ms ease-in 0;
   transition:all 200ms ease-in 0;
 }
-#splash #blocks .letter-h.hover .front{
+#splash #blocks .letter-h .front:hover{
   background:#ffffff;
   color:#f2c230;
 }
 
 /*
-Letter i
+Letter l
 
 */
 
-#splash #blocks .letter-i{
-  position:absolute;
-  left:720px;
-  top:480px;
+#splash #blocks .letter-l{
+  position:relative;
   width:110px;
-  height:110px;
+  height:175px;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
-  font:4.8em / 110px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  font:4.8em / 175px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
   color:#203880;
 }
-#splash #blocks .letter-i .inner, #splash #blocks .letter-i .front{
-  position:absolute;
-  left:0;
-  top:0;
-  display:block;
-  width:110px;
-  height:110px;
+#splash #blocks .letter-l .inner, #splash #blocks .letter-l .front{
+  position:relative;
+  left: 166.3%;
+  bottom: 22%;
+  width: 110px;
+  height: 175px;
 }
-#splash #blocks .letter-i .inner{
+#splash #blocks .letter-l .inner{
   -webkit-perspective:100px;
   -moz-perspective:100pxpx;
   -ms-perspective:100px;
@@ -184,57 +171,54 @@ Letter i
   -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
   transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
 }
-#splash #blocks .letter-i .front{
+#splash #blocks .letter-l .front{
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
 }
-#splash #blocks .letter-i .front{
-  background:#2EE7B6 url('../image/none.png') no-repeat center center; }
+#splash #blocks .letter-l .front{
+  background:#2EE7B6 url('../img/none.png') no-repeat center center; }
 
-#splash #blocks .letter-i .front{
+#splash #blocks .letter-l .front{
   -webkit-transition:all 200ms ease-in 0;
   -moz-transition:all 200ms ease-in 0s;
   -o-transition:all 200ms ease-in 0;
   transition:all 200ms ease-in 0;
 }
-#splash #blocks .letter-i.hover .front {
+#splash #blocks .letter-l .front:hover {
   background:#203880;
   color:#e74c2e;
 }
 
 
 /*
-Letter i large
+Letter l large
 
 */
 
-#splash #blocks .letter-i-large {
-  position:absolute;
-  left:240px;
-  top:580px;
-  width:170px;
-  height:170px;
+#splash #blocks .letter-l-large {
+  position:relative;
+  width:250px;
+  height:145px;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
-  font:9.2em / 170px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  font:9.2em / 145px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
   color:#8b3628;
 }
-#splash #blocks .letter-i-large .inner, #splash #blocks .letter-i-large .front{
-  position:absolute;
-  left:0;
-  top:0;
-  display:block;
-  width:170px;
-  height:170px;
+#splash #blocks .letter-l-large .inner, #splash #blocks .letter-l-large .front{
+  position:relative;
+  left: 88%;
+  bottom: 26.5%;
+  width:250px;
+  height:145px;
 }
-#splash #blocks .letter-i-large .inner{
+#splash #blocks .letter-l-large .inner{
   -webkit-perspective:100px;
   -moz-perspective:100pxpx;
   -ms-perspective:100px;
@@ -248,56 +232,53 @@ Letter i large
   -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
   transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
 }
-#splash #blocks .letter-i-large .front{
+#splash #blocks .letter-l-large .front{
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
 }
-#splash #blocks .letter-i-large .front{
- background:#f2c230 url('../image/none.png') no-repeat center center; }
+#splash #blocks .letter-l-large .front{
+ background:#f2c230 url('../img/none.png') no-repeat center center; }
 
 
-#splash #blocks .letter-i-large .front{
+#splash #blocks .letter-l-large .front{
   -webkit-transition:all 200ms ease-in 0;
   -moz-transition:all 200ms ease-in 0s;
   -o-transition:all 200ms ease-in 0;
   transition:all 200ms ease-in 0;
 }
-#splash #blocks .letter-i-large.hover .front{
+#splash #blocks .letter-l-large .front:hover{
   background:#8b3628;
   color:#f2c230;
 }
 
 /*
-Letter i small
+Letter 0 small
 
 */
-#splash #blocks .letter-i-small{
-  position:absolute;
-  left:480px;
-  top:640px;
-  width:120px;
-  height:120px;
+#splash #blocks .letter-0-small{
+  position:relative;
+  width:110px;
+  height:240px;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
-  font:4.8em / 120px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  font:8.1em / 240px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
   color:#3078bf;
 }
-#splash #blocks .letter-i-small .inner, #splash #blocks .letter-i-small .front{
-  position:absolute;
-  left:0;
-  top:0;
-  display:block;
-  width:120px;
-  height:120px;
+#splash #blocks .letter-0-small .inner, #splash #blocks .letter-0-small .front{
+  position:relative;
+  left:80%;
+  bottom: 71.9%;
+  width:110px;
+  height:240px;
 }
-#splash #blocks .letter-i-small .inner{
+#splash #blocks .letter-0-small .inner{
   -webkit-perspective:100px;
   -moz-perspective:100pxpx;
   -ms-perspective:100px;
@@ -311,35 +292,115 @@ Letter i small
   -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
   transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
 }
-#splash #blocks .letter-i-small .front{
+#splash #blocks .letter-0-small .front{
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
 }
-#splash #blocks .letter-i-small .front{
- background:#203880 url('../image/none.png') no-repeat center center; }
+#splash #blocks .letter-0-small .front{
+ background:#203880 url('../img/none.png') no-repeat center center; }
 
 
-#splash #blocks .letter-i-small .front {
+#splash #blocks .letter-0-small .front {
   -webkit-transition:all 200ms ease-in 0;
   -moz-transition:all 200ms ease-in 0s;
   -o-transition:all 200ms ease-in 0;
   transition:all 200ms ease-in 0;
 }
-#splash #blocks .letter-i-small.hover .front{
+#splash #blocks .letter-0-small .front:hover{
   background:#3078bf;
   color:#203880;
 }
+
+
+
+/*
+refresh
+
+*/
+#splash #blocks .refresh{
+  position:relative;
+  width:210px;
+  height:100px;
+  background:transparent;
+  z-index:200;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  font:4.8em / 100px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  text-align:center;
+  color:#3078bf;
+}
+#splash #blocks .refresh .inner, #splash #blocks .refresh .front{
+  position:relative;
+  left:113.35%;
+  bottom: 281%;
+  width:210px;
+  height:100px;
+}
+#splash #blocks .refresh .inner{
+  -webkit-perspective:100px;
+  -moz-perspective:100pxpx;
+  -ms-perspective:100px;
+  perspective:100px;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d;
+  -ms-transform-style:preserve-3d;
+  transform-style:preserve-3d;
+  -webkit-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  -moz-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0s;
+  -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+  transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
+}
+#splash #blocks .refresh .front{
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+#splash #blocks .refresh .front{
+ background:#203880 url('../img/none.png') no-repeat center center; 
+}
+
+#splash #blocks .refresh .front {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#splash #blocks .refresh .front:before {
+  content: "\f021";
+  font-family: FontAwesome;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+#splash #blocks .refresh .front:hover:before, #splash #blocks .refresh .front:focus:before
+,#splash #blocks .refresh .front:active:before{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
 
 /*
 Coffee
 */
 
-#splash #blocks .coffee, #splash-fullscreen #blocks .coffee {
-  position:absolute;
-  left:450px;
-  top:225px;
+#splash #blocks .coffee{
+
+  /*top: 42%;*/
+  left: .3%;
+  margin-top: 33%;
+  position:relative;
   width:175px;
   height:175px;
   background:transparent;
@@ -350,13 +411,12 @@ Coffee
   backface-visibility:hidden;
 }
 #splash #blocks .coffee .inner, #splash #blocks .coffee .front{
-
-  position:absolute;
-  left:0;
-  top:0;
-  display:block;
-  width:200px;
-  height:200px;
+  position:relative;
+  /*left:.3%;*/
+  /*top: 73.5%;*/
+  /*top:0;*/
+  width:175px;
+  height:175px;
 }
 #splash #blocks .coffee .inner {
   -webkit-perspective:100px;
@@ -372,33 +432,12 @@ Coffee
   -o-transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
   transition:all 500ms cubic-bezier(0.175,0.885,0.320,1.275) 0;
 }
-#splash #blocks .coffee .front {
+#splash #blocks .coffee .inner .front {
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
   -o-backface-visibility:hidden;
   backface-visibility:hidden;
 }
-#splash #blocks .coffee .front{ 
+#splash #blocks .coffee .inner .front{ 
   background:#e74c2e url('../img/coffee.png') no-repeat center center; 
-}
-
-#splash #blocks .coffee .back{
-  -webkit-transform:rotateY(-180deg);
-  -moz-transform:rotateY(-180deg);
-  -ms-transform:rotateY(-180deg);
-  -o-transform:rotateY(-180deg);
-  transform:rotateY(-180deg);
-  background-color:#e74c2e;
-}
-
-#splash #blocks .coffee .front{ z-index:8; }
-
-
-#splash #blocks .coffee.hover .front{ z-index:-1; }
-#splash #blocks .coffee.hover .inner{
-  -webkit-transform:rotateY(-180deg);
-  -moz-transform:rotateY(-180deg);
-  -ms-transform:rotateY(-180deg);
-  -o-transform:rotateY(-180deg);
-  transform:rotateY(-180deg);
 }
