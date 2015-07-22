@@ -1,22 +1,31 @@
 
+
+@media screen and (max-width: 1024px){
+    
+}
+
 #splash, #blocks{
   display: inline-block;
   height: 100%;
-  width: 75%;
+  width: 72.5%;
+  margin-top: 10%;
 }
 
 
 
-/*
 
-Letter E
 
-*/
+/*-----------------*/
+/****     E     ****/
+/*-----------------*/
 
 #splash #blocks .letter-e {
+  display: inline-block;
   position:relative;
   width:120px;
   height:120px;
+  float: left;
+  margin-top: 5%;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -28,9 +37,7 @@ Letter E
   color:#203880;
 }
 #splash #blocks .letter-e .inner, #splash #blocks .letter-e .front{
-  position:relative;
-  left: 23.3%;
-  top: 28%;
+  position:relative;/
   width:120px;
   height:120px;
 }
@@ -69,17 +76,17 @@ Letter E
   color:#ffffff;
 }
 
-/* 
-Letter h
-
-*/
+/*-----------------*/
+/****     H     ****/
+/*-----------------*/
 
 #splash #blocks .letter-h {
+  display: inline-block;
   position:relative;
-  margin-left: 46.3%;
-  margin-top: 25%;
   width:190px;
   height:190px;
+  float: left;
+  margin-top: 15.2%;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -92,8 +99,6 @@ Letter h
 }
 #splash #blocks .letter-h .inner, #splash #blocks .letter-h .front{
   position:relative;
-  /*left:46.3%;
-  top:25%;*/
   width:190px;
   height:190px;
 }
@@ -131,15 +136,17 @@ Letter h
   color:#f2c230;
 }
 
-/*
-Letter l
-
-*/
+/*-----------------*/
+/****  Small l  ****/
+/*-----------------*/
 
 #splash #blocks .letter-l{
+  display: inline-block;
   position:relative;
   width:110px;
   height:175px;
+  float: left;
+  margin-top: 17.5%;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -148,12 +155,10 @@ Letter l
   backface-visibility:hidden;
   font:4.8em / 175px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
-  color:#203880;
+  color:#E3DAED;
 }
 #splash #blocks .letter-l .inner, #splash #blocks .letter-l .front{
   position:relative;
-  left: 166.3%;
-  bottom: 22%;
   width: 110px;
   height: 175px;
 }
@@ -178,7 +183,8 @@ Letter l
   backface-visibility:hidden;
 }
 #splash #blocks .letter-l .front{
-  background:#2EE7B6 url('../img/none.png') no-repeat center center; }
+  background:#e74c2e url('../img/none.png') no-repeat center center; 
+}
 
 #splash #blocks .letter-l .front{
   -webkit-transition:all 200ms ease-in 0;
@@ -192,15 +198,17 @@ Letter l
 }
 
 
-/*
-Letter l large
-
-*/
+/*-----------------*/
+/****  Large L  ****/
+/*-----------------*/
 
 #splash #blocks .letter-l-large {
+  display: inline-block;
   position:relative;
   width:250px;
   height:145px;
+  float: left;
+  right: 15%;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -209,12 +217,11 @@ Letter l large
   backface-visibility:hidden;
   font:9.2em / 145px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
-  color:#8b3628;
+  color:#E3DAED;
+
 }
 #splash #blocks .letter-l-large .inner, #splash #blocks .letter-l-large .front{
   position:relative;
-  left: 88%;
-  bottom: 26.5%;
   width:250px;
   height:145px;
 }
@@ -239,7 +246,7 @@ Letter l large
   backface-visibility:hidden;
 }
 #splash #blocks .letter-l-large .front{
- background:#f2c230 url('../img/none.png') no-repeat center center; }
+ background:#29E318 url('../img/none.png') no-repeat center center; }
 
 
 #splash #blocks .letter-l-large .front{
@@ -249,18 +256,21 @@ Letter l large
   transition:all 200ms ease-in 0;
 }
 #splash #blocks .letter-l-large .front:hover{
-  background:#8b3628;
-  color:#f2c230;
+  background:#F7FA00;
+  color:#29E318;
 }
 
-/*
-Letter 0 small
+/*-----------------*/
+/****  Small 0  ****/
+/*-----------------*/
 
-*/
 #splash #blocks .letter-0-small{
+  display: inline-block;
   position:relative;
   width:110px;
   height:240px;
+  float: left;
+  margin-left: -15%;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -269,12 +279,10 @@ Letter 0 small
   backface-visibility:hidden;
   font:8.1em / 240px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
-  color:#3078bf;
+  color:#12E7C3;
 }
 #splash #blocks .letter-0-small .inner, #splash #blocks .letter-0-small .front{
   position:relative;
-  left:80%;
-  bottom: 71.9%;
   width:110px;
   height:240px;
 }
@@ -299,7 +307,7 @@ Letter 0 small
   backface-visibility:hidden;
 }
 #splash #blocks .letter-0-small .front{
- background:#203880 url('../img/none.png') no-repeat center center; }
+ background:#ED2A0F url('../img/none.png') no-repeat center center; }
 
 
 #splash #blocks .letter-0-small .front {
@@ -309,20 +317,22 @@ Letter 0 small
   transition:all 200ms ease-in 0;
 }
 #splash #blocks .letter-0-small .front:hover{
-  background:#3078bf;
-  color:#203880;
+  background:#75DEDF;
+  color:#E74508;
 }
 
 
 
-/*
-refresh
+/*-----------------*/
+/****  Refresh  ****/
+/*-----------------*/
 
-*/
 #splash #blocks .refresh{
+  display: inline-block;
   position:relative;
   width:210px;
   height:100px;
+  float: left;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -331,12 +341,10 @@ refresh
   backface-visibility:hidden;
   font:4.8em / 100px 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
   text-align:center;
-  color:#3078bf;
+  color:#C5E9F8;
 }
 #splash #blocks .refresh .inner, #splash #blocks .refresh .front{
   position:relative;
-  left:113.35%;
-  bottom: 281%;
   width:210px;
   height:100px;
 }
@@ -361,7 +369,7 @@ refresh
   backface-visibility:hidden;
 }
 #splash #blocks .refresh .front{
- background:#203880 url('../img/none.png') no-repeat center center; 
+ background:#2C102A url('../img/none.png') no-repeat center center; 
 }
 
 #splash #blocks .refresh .front {
@@ -391,18 +399,16 @@ refresh
 
 
 
-/*
-Coffee
-*/
+/*-----------------*/
+/****   Coffee  ****/
+/*-----------------*/
 
 #splash #blocks .coffee{
-
-  /*top: 42%;*/
-  left: .3%;
-  margin-top: 33%;
+display: inline-block;
   position:relative;
   width:175px;
   height:175px;
+  float: left;
   background:transparent;
   z-index:200;
   -webkit-backface-visibility:hidden;
@@ -412,9 +418,6 @@ Coffee
 }
 #splash #blocks .coffee .inner, #splash #blocks .coffee .front{
   position:relative;
-  /*left:.3%;*/
-  /*top: 73.5%;*/
-  /*top:0;*/
   width:175px;
   height:175px;
 }
@@ -441,3 +444,4 @@ Coffee
 #splash #blocks .coffee .inner .front{ 
   background:#e74c2e url('../img/coffee.png') no-repeat center center; 
 }
+
