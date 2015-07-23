@@ -58,7 +58,7 @@
 	position: relative;
 	display: inline-block;
   	float: left;
-  	margin-top: -5%;
+  	margin-top: -7%;
   	margin-left: -.3%;
 }
 
@@ -146,18 +146,18 @@ figure.profilepic:hover p {
 
 
 /*---------------*/
-/***** desc *****/
+/*** expression **/
 /*---------------*/
 
-.bio-desc {
-	position: relative;
+.bio-expression {
+	/*position: relative;*/
 	display: inline-block;
   	float: left;
   	height: 100px;
 	width: 100px;
-	margin-top: 3%;
+	margin-top: 5%;
 }
-.bio-desc .desc {
+.bio-expression .expression {
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -169,15 +169,15 @@ figure.profilepic:hover p {
 	cursor: pointer;
 }
 
-.bio-desc .desc img {
+.bio-expression .expression img {
 	position: relative;
 	min-height: 100%;
 	max-width: 100%;
 	opacity: 0.8;
 }
 
-.bio-desc .desc figcaption,
-.bio-desc .desc figcaption > a {
+.bio-expression .expression figcaption,
+.bio-expression .expression figcaption > a {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -185,22 +185,22 @@ figure.profilepic:hover p {
 	height: 100%;
 }
 
-figure.desc {
+figure.expression {
 	background: #9e5406;
 }
 
-figure.desc img {
+figure.expression img {
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
-figure.desc:hover img {
+figure.expression:hover img {
 	opacity: 0.4;
 }
 
-figure.desc figcaption::before,
-figure.desc figcaption::after {
+figure.expression figcaption::before,
+figure.expression figcaption::after {
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -212,21 +212,21 @@ figure.desc figcaption::after {
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.desc figcaption::before {
+figure.expression figcaption::before {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
-figure.desc figcaption::after {
+figure.expression figcaption::after {
 	border-right: 1px solid #fff;
 	border-left: 1px solid #fff;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
 
-figure.desc h2 {
+figure.expression h2 {
 	padding-top: 30%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
@@ -234,7 +234,7 @@ figure.desc h2 {
 	transform: translate3d(0,-20px,0);
 }
 
-figure.desc p {
+figure.expression p {
 	padding: 20px 2.5em;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -243,15 +243,15 @@ figure.desc p {
 	transform: translate3d(0,20px,0);
 }
 
-figure.desc:hover figcaption::before,
-figure.desc:hover figcaption::after {
+figure.expression:hover figcaption::before,
+figure.expression:hover figcaption::after {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.desc:hover h2,
-figure.desc:hover p {
+figure.expression:hover h2,
+figure.expression:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);

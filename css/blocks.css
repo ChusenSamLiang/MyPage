@@ -1,19 +1,11 @@
 
 
-@media screen and (max-width: 1024px){
-    
-}
-
 #splash, #blocks{
   display: inline-block;
   height: 100%;
   width: 72.5%;
   margin-top: 10%;
 }
-
-
-
-
 
 /*-----------------*/
 /****     E     ****/
