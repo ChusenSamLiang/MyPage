@@ -5,14 +5,62 @@
 
 @media screen and (max-width: 1200px) {
 
-/*
-
-pass this part, the design of the thing will chnage
-
-need to accomodate and make a new design with the blocks
-
-*/
+	#splash, #blocks{
+	  display: inline-block;
+	  height: 100%;
+	  width: 80%;
+	  margin-top: 10%;
+	}
 
 }
 
 
+@media screen and (max-width: 1000px) {
+
+	#splash, #blocks{
+	  display: inline-block;
+	  height: 100%;
+	  width: 95%;
+	  margin-top: 12.5%;
+	}
+
+}
+
+@media screen and (max-width: 775px) {
+
+	#splash, #blocks{
+	  display: inline-block;
+	  height: 100%;
+	  width: 100%;
+	  margin-top: 15%;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+
+	#splash, #blocks{
+	  display: inline-block;
+	  height: 100%;
+	  width: 100%;
+	  margin-top: 18%;
+	}
+
+	#splash #blocks .coffee, #splash #blocks .coffee .inner, #splash #blocks .coffee .front,
+	#splash #blocks .letter-h, #splash #blocks .letter-h .inner, #splash #blocks .letter-h .front,
+	#splash #blocks .letter-e, #splash #blocks .letter-e .inner, #splash #blocks .letter-e .front,
+	#splash #blocks .letter-l, #splash #blocks .letter-l .inner, #splash #blocks .letter-l .front,
+	#splash #blocks .letter-l-large, #splash #blocks .letter-l-large .inner, #splash #blocks .letter-l-large .front,
+	#splash #blocks .letter-0-small, #splash #blocks .letter-0-small .inner, #splash #blocks .letter-0-small .front,
+	#splash #blocks .refresh, #splash #blocks .refresh .inner, #splash #blocks .refresh .front,
+	#splash #blocks .bio-expression, 
+	#splash #blocks .bio {
+
+		width:70px;
+		height:70px;
+		position: relative;
+		float: left;
+
+	}
+
+}
