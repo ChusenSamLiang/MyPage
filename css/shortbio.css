@@ -58,7 +58,7 @@
 	position: relative;
 	display: inline-block;
   	float: left;
-  	margin-top: -7%;
+  	margin-top: -7.55%;
   	margin-left: -.3%;
 }
 
@@ -153,16 +153,16 @@ figure.profilepic:hover p {
 	/*position: relative;*/
 	display: inline-block;
   	float: left;
-  	height: 80px;
-	width: 80px;
-	margin-top: 5%;
+  	height: 88px;
+	width: 88px;
+	margin-top: 8%;
 }
 .bio-expression .expression {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	height: 80px;
-	width: 80px;
+	height: 88px;
+	width: 88px;
 	height: auto;
 	background: #3085a3;
 	text-align: center;

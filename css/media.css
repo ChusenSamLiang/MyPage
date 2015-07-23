@@ -37,7 +37,7 @@
 
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 565px) {
 
 	#splash, #blocks{
 	  display: inline-block;
