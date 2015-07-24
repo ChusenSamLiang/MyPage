@@ -37,16 +37,23 @@
 
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 650px) {
 
-	#splash, #blocks{
+	#splash {
 	  display: inline-block;
 	  height: 100%;
 	  width: 100%;
 	  margin-top: 18%;
 	}
 
-	#splash #blocks .coffee, #splash #blocks .coffee .inner, #splash #blocks .coffee .front,
+	#blocks{
+	  display: inline-block;
+	  height: 100%;
+	  width: 600px;
+	  margin-top: 18%;
+	}
+
+	/*#splash #blocks .coffee, #splash #blocks .coffee .inner, #splash #blocks .coffee .front,
 	#splash #blocks .letter-h, #splash #blocks .letter-h .inner, #splash #blocks .letter-h .front,
 	#splash #blocks .letter-e, #splash #blocks .letter-e .inner, #splash #blocks .letter-e .front,
 	#splash #blocks .letter-l, #splash #blocks .letter-l .inner, #splash #blocks .letter-l .front,
@@ -61,6 +68,6 @@
 		position: relative;
 		float: left;
 
-	}
+	}*/
 
 }
