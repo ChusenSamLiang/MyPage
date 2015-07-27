@@ -790,3 +790,132 @@ figure.expression:hover p {
 #splash #blocks .coffee .front .bars li:nth-child(5){
       -webkit-animation: highbars 0.5s ease-in-out infinite -0.4s;
 }
+
+
+/*---------------*/
+/***    Work    **/
+/*---------------*/
+
+#work {
+  width: 100%;
+  text-align: center;
+}
+
+#work .project {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#work .project .one, #work .project .two {
+  height: 240px;
+  width: 240px;
+  display: inline;
+  top: 20px;
+}
+
+#work .project .one img, #work .project .two img {
+  position:relative;
+  display:inline-block;
+  width:240px;
+  height:240px;
+  margin-top: 30px;
+}
+
+#work .project .one figcaption {
+  display: inline-block;
+  width:180px;
+  height:100px;
+  padding:20px;
+  top: 103.5px;
+  position: relative;
+  background:#203880;
+}
+
+#work .project .two figcaption {
+  display: inline-block;
+  width:180px;
+  height:100px;
+  padding:20px;
+  top: 103.5px;
+  position: relative;
+  background:#203880;
+}
+
+
+#work .project .one figcaption h5, #work .project .two figcaption h5{
+  margin:0 0 5px 0;
+  font:75 1em 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  color:#ffffff;
+}
+
+#work .project .one figcaption p, #work .project .two figcaption p{
+  opacity:.4;
+  filter:alpha(opacity=40);
+  margin:0;
+  font:1.1em 'Neuzeit S LT W01 Book', Helvetica, Arial, sans-serif;
+  color:#ffffff;
+} 
+/*
+#work {
+  width: 100%;
+  background: #000;
+  text-align: center;
+}
+#work .one {
+  display: inline-block;
+  cursor:pointer;
+  position:relative;
+  height:360px;
+  width: 360px;
+}
+#work .one .image {
+  position:relative;
+  left:0;
+  top:0;
+  z-index:1;
+}
+#work .one .image img {
+  position:relative;
+  left:0;
+  top:0;
+  display: inline-block;
+  width:360px;
+  height:360px;
+  background:rgba(230,76,46,0.95) url('../img/Try-The-world.png') no-repeat center center;
+  
+}
+
+#work .one figcaption {
+  display: inline-block;
+  position:absolute;
+  left:360px;
+  top:180px;
+  width:180px;
+  height:180px;
+  padding:20px;
+  background:#203880;
+  z-index:2;
+}
+#work .one figcaption h4 {
+  margin:0 0 5px 0;
+  font:75 1em 'NeuzeitSLTW01-BookHeavy', Helvetica, Arial, sans-serif;
+  color:#ffffff;
+}
+#work .one figcaption p {
+  opacity:.4;
+  filter:alpha(opacity=40);
+  margin:0;
+  font:1.1em 'Neuzeit S LT W01 Book', Helvetica, Arial, sans-serif;
+  color:#ffffff;
+}
+#work .one figcaption:before {
+  position:relative;
+  top:30px;
+  content:'';
+  display: inline-block;
+  width:0;
+  height:0;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+  z-index:2;
+}*/

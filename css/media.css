@@ -12,6 +12,9 @@
 	  margin-top: 10%;
 	}
 
+	#work .project {
+	  width: 600px;
+
 }
 
 
@@ -23,6 +26,8 @@
 	  width: 95%;
 	  margin-top: 12.5%;
 	}
+}
+
 
 }
 
