@@ -919,3 +919,115 @@ figure.expression:hover p {
   border-bottom:10px solid transparent;
   z-index:2;
 }*/
+
+
+/*---------------*/
+/* profile about */
+/*---------------*/
+
+#profile {
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  /*height: 100%;*/
+  position: relative;
+  margin-top: 6%;
+}
+
+#profile .details {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#profile .details .topic {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: inline;
+}
+
+
+#profile .details .topic .main{
+  float: right;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: yellow;
+  top: 75px;
+  left: 100px;
+}
+
+#profile .details .subtopic {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: inline;
+  /* background: white;*/
+  display: none;
+}
+
+#profile .details .subtopic .top {
+  height: 50%;
+  width: 100%; 
+  margin-bottom: 50px;
+}
+
+#profile .details .subtopic .bottom {
+  height: 50%;
+  width: 100%; 
+}
+
+#profile .details .subtopic .top .l{
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline;
+  background: green;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#profile .details .subtopic .top .r{
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline;
+  background: red;
+}
+
+#profile .details .subtopic .bottom .l{
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline;
+  background: yellow;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#profile .details .subtopic .bottom .r{
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  display: inline;
+  background: blue;
+}
+
+/*#profile .details .top{
+  position:absolute;
+  left: 50%;
+  height:200px;
+  width:200px;
+  background-color:blue;
+  display: inline-block;
+  display: none;
+}*/
+
