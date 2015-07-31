@@ -921,25 +921,75 @@ figure.expression:hover p {
 /*---------------*/
 
 #contact {
-  margin-top: 20%;
-  margin-bottom: 15%;
   text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  position: relative;
+  margin-top: 115px;
+  height: 265px;
 }
 
 #contact .center {
-    margin-left: 50%;
     width:150px;
     height:150px;
     border-radius:50%;
-    position: relative;
-    display: inline-block;
-
-}
-
-#contact .sat0,#contact .sat1,#contact .sat2,#contact .sat3,#contact .sat4{
-    width:100px;
-    height:100px; 
-    border-radius:50%;
-    border:2px solid white;
     position: absolute;
 }
+
+#contact .media0,#contact .media1,#contact .media2,#contact .media3,#contact .media4{
+    width:100px;
+   height:100px; 
+    border-radius:50%;
+    position: absolute;
+    
+} 
+
+#contact .media4 a{
+  height: 90px;
+  width: 90px;
+  background:#ffffff url('../img/email.png') no-repeat center center; 
+} 
+
+
+#contact .media3 a{
+  height: 90px;
+  width: 90px;
+  background:#ffffff url('../img/twitter.png') no-repeat center center; 
+}
+
+#contact .media2 a{
+  height: 90px;
+  width: 90px;
+  background:#ffffff url('../img/github.png') no-repeat center center; 
+}
+
+#contact .media1 a{
+  height: 90px;
+  width: 90px;
+  background:#ffffff url('../img/instagram.png') no-repeat center center; 
+}
+
+#contact .media0 a{
+  height: 90px;
+  width: 90px;
+  background:#ffffff url('../img/linkedin.png') no-repeat center center; 
+}
+
+
+/*---------------*/
+/***  footer   ***/
+/*---------------*/
+
+footer {
+  text-align: center;
+
+}
+
+footer p {
+  color: #fefad7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+

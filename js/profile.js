@@ -136,10 +136,10 @@ Circle
 // }
 
 var pos = $('#contact .center').position(),
-    radiusSat = $('#contact .sat1').width() * 0.5,
-    radius = $('#contact .center').width() * 0.5,
-    cx = pos.left + radius,
-    cy = pos.top + radius,
+    radiusSat = $('#contact .media1').width() * 0.4,
+    radius = $('#contact .center').width() * 0.4,
+    cx = pos.left + 75,
+    cy = pos.top + 75,
     x, y, angle = 0, angles = [],
     spc = 360 / 5,
     deg2rad = Math.PI / 180,
@@ -164,7 +164,7 @@ function loop() {
         x = cx + radius * Math.cos(angle * deg2rad);
         y = cy + radius * Math.sin(angle * deg2rad);
 
-        $('#contact .sat' + i).css({left:x - radiusSat, top:y - radiusSat});
+        $('#contact .media' + i).css({left:x - radiusSat, top:y - radiusSat});
     
         angles[i] = angles[i] + 1;
         if (angles[i] > 360) angles[i] = 0;
